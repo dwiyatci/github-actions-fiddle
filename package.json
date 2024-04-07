@@ -1,0 +1,18 @@
+{
+  "name": "github-actions-fiddle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upgr": "pnpm upgrade --recursive --latest --interactive",
+    "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,html,css,less,scss,sass,graphql,gql,yaml,yml,md}\"",
+    "format:check": "prettier --list-different \"{**/*,*}.{js,ts,jsx,tsx,json,html,css,less,scss,sass,graphql,gql,yaml,yml,md}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.2.5",
+    "prettier-plugin-sh": "0.14.0"
+  }
+}
